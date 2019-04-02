@@ -78,7 +78,7 @@ describe('tictactoe.js', () => {
       sandbox.stub(window, 'player').
         onFirstCall().returns('X').
         onSecondCall().returns('O');
-
+      
       window.updateState(squares[8]);
       window.updateState(squares[0]);
 
